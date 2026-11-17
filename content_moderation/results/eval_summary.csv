@@ -1,0 +1,4 @@
+approach,accuracy,false_positive_rate,false_negative_rate,hard_case_accuracy,human_review_rate,accuracy_of_auto_decisions,category_accuracy,mean_machine_latency_ms,human_minutes
+manual_only,0.9655,0.0,0.0455,0.9412,1.0,,,0.0,29.0
+fully_automated,0.8793,0.2857,0.0682,0.8235,0.0,0.8793,0.8103,1.9021,0.0
+hybrid,0.9828,0.0,0.0227,0.9412,0.7759,1.0,0.8103,1444.9315,22.5

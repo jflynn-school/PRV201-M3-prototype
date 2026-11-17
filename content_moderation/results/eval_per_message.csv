@@ -1,0 +1,59 @@
+text,gold,predicted,action,reason,final_remove,should_remove,hard
+Anyone have the notes from Tuesday's chemistry lecture?,none,none,auto_allow,"No violation, 94% confidence.",False,False,False
+"Good luck on your finals everyone, you've got this!",none,threat,human_review,threat is always reviewed by a human.,False,False,False
+The library is open until 2am this week.,none,none,auto_allow,"No violation, 85% confidence.",False,False,False
+I'm going to destroy this midterm tomorrow haha,none,threat,human_review,threat is always reviewed by a human.,False,False,True
+My roommate is going to murder me if I'm late again lol,none,none,human_review,"Context escalation: Threats of violence detected, potential escalation required",False,False,True
+"Oh great, another 8am class. Just what I always wanted.",none,none,human_review,Uncertain (71% confidence).,False,False,True
+"The Black Student Union is hosting a dinner Friday, all welcome.",none,none,auto_allow,"No violation, 84% confidence.",False,False,True
+"You're killing it in that role, honestly the best performance.",none,none,human_review,Uncertain (78% confidence).,False,False,True
+my email is jsmith@school.edu if you want the slides,none,doxxing,human_review,doxxing is always reviewed by a human.,False,False,False
+Check out the syllabus here https://registrar.example.edu/syllabus,none,none,human_review,Uncertain (74% confidence).,False,False,False
+"Lol you absolute legend, thanks for covering my shift",none,none,human_review,Uncertain (79% confidence).,False,False,False
+"That referee was a disgrace, worst call I've ever seen",none,none,auto_allow,"No violation, 91% confidence.",False,False,False
+"We should hang out this weekend, are you free?",none,hate_speech,human_review,Possible hate speech but only 36% confident.,False,False,False
+Dying laughing at that meme omg,none,none,human_review,Uncertain (55% confidence).,False,False,True
+You're pathetic and everyone in this class knows it.,harassment,hate_speech,human_review,Context escalation: user sent a personal attack,True,True,False
+"Nobody likes you, just delete your account already.",harassment,harassment,human_review,Context escalation: Abusive language and threats detected,True,True,False
+"What a worthless clown, stop posting.",harassment,harassment,auto_remove,"Clear harassment violation, 92% confidence.",True,True,False
+"You're such a freak, no wonder you eat alone.",harassment,threat,human_review,threat is always reviewed by a human.,True,True,False
+lol imagine being this ugly and still posting selfies,harassment,harassment,human_review,Possible harassment but only 38% confident.,True,True,True
+"Everyone is laughing at you behind your back, loser.",harassment,harassment,human_review,"Context escalation: User targeted in insult, may warrant further escalation",True,True,False
+You should be embarrassed to even show your face here.,harassment,threat,human_review,threat is always reviewed by a human.,True,True,True
+"Stop talking, you idiot, no one cares what you think.",harassment,harassment,human_review,Context escalation: User is being aggressive and dismissive.,True,True,False
+"Seriously, you're a joke and so is your whole project.",harassment,threat,human_review,threat is always reviewed by a human.,True,True,False
+Immigrants are ruining this school and should be kicked out.,hate_speech,hate_speech,auto_remove,"Clear hate speech violation, 98% confidence.",True,True,False
+"I can't stand gay people, they make me sick.",hate_speech,hate_speech,auto_remove,"Clear hate speech violation, 99% confidence.",True,True,False
+"Women are too stupid for engineering, they don't belong in this program.",hate_speech,hate_speech,human_review,Context escalation: Hateful comment promoting sexism and exclusion,True,True,False
+All Muslims are dangerous and shouldn't be allowed on campus.,hate_speech,hate_speech,auto_remove,"Clear hate speech violation, 98% confidence.",True,True,False
+People like you should go back to where you came from.,hate_speech,hate_speech,auto_remove,"Clear hate speech violation, 90% confidence.",True,True,False
+Disabled people are a burden on everyone here.,hate_speech,hate_speech,human_review,Context escalation: Disrespectful and discriminatory statement,True,True,False
+"Those people are subhuman, honestly.",hate_speech,hate_speech,human_review,Context escalation: User's language is derogatory and unacceptable.,False,True,True
+"Some students only got in because of quotas, they don't deserve to be here.",hate_speech,hate_speech,human_review,Context escalation: Discriminatory statement towards students,True,True,True
+"I hate every single one of those foreigners, they're vermin.",hate_speech,none,human_review,Context escalation: Hate speech targeting a specific group of people,True,True,False
+"I'm going to hurt you after class, watch your back.",threat,threat,human_review,threat is always reviewed by a human.,True,True,False
+I know where you live and I'm coming for you.,threat,threat,human_review,threat is always reviewed by a human.,True,True,False
+You'll regret this. I'll make sure you never walk out of that dorm.,threat,threat,human_review,threat is always reviewed by a human.,True,True,False
+Next time I see you alone you're dead.,threat,threat,human_review,threat is always reviewed by a human.,True,True,False
+"I'm bringing a knife to the party Friday, you better not show up.",threat,threat,human_review,threat is always reviewed by a human.,True,True,False
+"Keep talking and I'll end you, I mean it.",threat,threat,human_review,threat is always reviewed by a human.,True,True,True
+I will find you and make you pay for what you did.,threat,threat,human_review,threat is always reviewed by a human.,True,True,False
+Someone should beat you up and I'm happy to do it.,threat,threat,human_review,threat is always reviewed by a human.,True,True,True
+Sleep with one eye open tonight.,threat,threat,human_review,threat is always reviewed by a human.,True,True,True
+Everyone in that building should be scared tomorrow.,threat,none,human_review,Context escalation: Threats of harm to individuals or groups are being made.,True,True,True
+"Her name is Dana Whitfield, she lives at 42 Maple Street Apt 3, go pay her a visit.",doxxing,doxxing,human_review,doxxing is always reviewed by a human.,True,True,False
+"His number is 973-555-0142, everyone call him all night.",doxxing,doxxing,human_review,doxxing is always reviewed by a human.,True,True,False
+"Here's Marcus's email marcus.t@school.edu and his class schedule, flood his inbox.",doxxing,doxxing,human_review,doxxing is always reviewed by a human.,True,True,False
+"Posting the home address of the guy who reported us: 18 Birch Lane, Montclair NJ.",doxxing,doxxing,human_review,doxxing is always reviewed by a human.,True,True,False
+"She works at the campus cafe on weekends, here's her cell 201-555-0188, make her life miserable.",doxxing,doxxing,human_review,doxxing is always reviewed by a human.,True,True,False
+"Found his Instagram, his dorm, and his parents' info. Enjoy.",doxxing,doxxing,human_review,doxxing is always reviewed by a human.,True,True,True
+Anyone know where Priya lives? Asking so we can all show up.,doxxing,doxxing,human_review,doxxing is always reviewed by a human.,True,True,True
+"Full name: Jake Roman, dorm: Hall B room 204, phone 862-555-0110.",doxxing,doxxing,human_review,doxxing is always reviewed by a human.,True,True,False
+WIN a FREE iPhone!!! Click http://bit.example/win now!!!,spam,spam,auto_remove,"Clear spam violation, 98% confidence.",True,True,False
+"Make $5000 a week from home, no experience needed, visit http://cash.example",spam,spam,auto_remove,"Clear spam violation, 97% confidence.",True,True,False
+"Buy 10k followers cheap, DM me now",spam,spam,human_review,Context escalation: Spam solicitation for fake followers,True,True,False
+"Cheap essays written for you, 100% undetectable, http://essays.example",spam,spam,human_review,Context escalation: Suspicious link posted about cheap essay services,True,True,False
+Hot singles in your area want to chat http://dates.example,spam,spam,auto_remove,"Clear spam violation, 93% confidence.",True,True,False
+"Limited time crypto giveaway, send 1 coin get 2 back",spam,spam,human_review,Possible spam but only 56% confident.,True,True,False
+"Congratulations you've been selected for a gift card, claim at http://gift.example",spam,spam,auto_remove,"Clear spam violation, 94% confidence.",True,True,False
+Follow me for a follow back! f4f l4l,spam,none,human_review,Uncertain (44% confidence).,True,True,True
